@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#efeae3"/>
+  <g fill="none" stroke="#a8a29e" stroke-width="2" opacity=".6">
+    <rect x="240" y="180" width="320" height="180" rx="6"/>
+    <circle cx="336" cy="240" r="7"/>
+    <path d="M240 330 l80 -60 l96 72 l48 -30 l96 78"/>
+  </g>
+  <text x="50%" y="432" text-anchor="middle" font-family="Inter,system-ui,sans-serif"
+        font-size="36" font-weight="600" fill="#57534e">Room 2 — photo 1</text>
+  <text x="50%" y="474" text-anchor="middle" font-family="Inter,system-ui,sans-serif"
+        font-size="26" fill="#8a837c">replace with room2-a.jpg</text>
+</svg>
