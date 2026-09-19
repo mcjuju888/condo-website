@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
   <rect width="800" height="600" fill="#eae6e0"/>
   <g fill="none" stroke="#a8a29e" stroke-width="2" opacity=".6">
-    <rect x="240" y="180" width="320" height="180" rx="6"/>
-    <circle cx="336" cy="240" r="7"/>
-    <path d="M240 330 l80 -60 l96 72 l48 -30 l96 78"/>
+    <rect x="300" y="200" width="200" height="150" rx="6"/>
+    <circle cx="345" cy="245" r="9"/>
+    <path d="M300 330 l55 -50 l60 58 l32 -26 l53 60"/>
   </g>
-  <text x="50%" y="432" text-anchor="middle" font-family="Inter,system-ui,sans-serif"
-        font-size="36" font-weight="600" fill="#57534e">Room 3 — photo 1</text>
-  <text x="50%" y="474" text-anchor="middle" font-family="Inter,system-ui,sans-serif"
-        font-size="26" fill="#8a837c">replace with room3-a.jpg</text>
+  <text x="400" y="420" text-anchor="middle" font-family="Inter,system-ui,sans-serif"
+        font-size="30" font-weight="600" fill="#57534e">Room 3 — photo coming</text>
+  <text x="400" y="458" text-anchor="middle" font-family="Inter,system-ui,sans-serif"
+        font-size="21" fill="#8a837c">replace with images/rooms/room3-a.jpg</text>
 </svg>

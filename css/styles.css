@@ -169,6 +169,11 @@ a{color:inherit}
   background:var(--surface);box-shadow:var(--shadow);
 }
 .tile img{aspect-ratio:1/1;object-fit:cover;width:100%;cursor:zoom-in}
+/* odd number of tiles: let the last one run full width instead of leaving a gap */
+@media (max-width:719px){
+  .grid-2 .tile:last-child:nth-child(odd){grid-column:1/-1}
+  .grid-2 .tile:last-child:nth-child(odd) img{aspect-ratio:4/3}
+}
 .tile span{display:block;padding:9px 12px;font-size:13.5px;font-weight:500}
 
 /* ---------- MAP ---------- */

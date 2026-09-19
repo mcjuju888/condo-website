@@ -27,8 +27,9 @@ message for the rate.
 2. List the filenames in `js/config.js` under each room's `photos` array and
    under `shared.photos`.
 
-The repo ships with grey SVG placeholders so the layout renders before your
-photos are in. Delete them once you've swapped in the real ones.
+Room 3 still uses a grey SVG placeholder (`images/rooms/room3-a.svg`).
+Drop a real photo in as `images/rooms/room3-a.jpg` and change the filename in
+`js/config.js` to swap it in.
 
 Photo tips: shoot landscape (horizontal), resize to ~1600px wide, save as JPG
 under ~300 KB each so the page stays fast on mobile data.
